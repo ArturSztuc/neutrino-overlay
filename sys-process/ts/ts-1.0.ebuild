@@ -13,5 +13,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="${DEPEND}"
 BDEPEND=""
+
+# collision of /usr/bin/ts
+RDEPEND="!sys-apps/moreutils
+	!app-misc/timestamp"
+
+src_install(){
+	# Built in /usr/bin
+	dobin ts
+
+	# Build man pages and further documentation
+	doman ts.1
+	dodoc Changelog OBJECTIVES PORTABILITY PROTOCOL README TRICKS web/*.html 
+}
