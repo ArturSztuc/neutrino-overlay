@@ -25,5 +25,5 @@ src_install(){
 
 	# Build man pages and further documentation
 	doman ts.1
-	dodoc Changelog OBJECTIVES PORTABILITY PROTOCOL README TRICKS web/*.html 
+	dodoc Changelog OBJECTIVES PORTABILITY PROTOCOL README TRICKS web/*.html
 }

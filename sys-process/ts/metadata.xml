@@ -5,10 +5,7 @@
 		<email>artursztuc@googlemail.com</email>
 		<name>Artur Sztuc</name>
 	</maintainer>
-    <longdescription lang="en">
-		task spooler is a Unix batch system where the tasks 
-		spooled run one after the other. The amount of jobs to
-		run at once can be set at any time. Its interface 
-		allows using it easily in scripts.
-    </longdescription>
+	<longdescription lang="en">
+		task spooler is a Unix batch system where the tasks spooled run one after the other. The amount of jobs to run at once can be set at any time. Its interface allows using it easily in scripts.
+	</longdescription>
 </pkgmetadata>
