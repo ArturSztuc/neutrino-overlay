@@ -7,7 +7,7 @@ DESCRIPTION="Unix bach system where the tasks spooled run one after the other"
 HOMEPAGE="http://vicerveza.homeunix.net/~viric/soft/ts/"
 SRC_URI="http://vicerveza.homeunix.net/~viric/soft/${PN}/${P}.tar.gz"
 
-LICENSE="GPL"
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
