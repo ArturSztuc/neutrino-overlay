@@ -1,0 +1,12 @@
+<repositories version="1.0">
+	<repo quality="experimental" status="unofficial">
+		<name>task-spooler</name>
+		<description lang="en">Gentoo Overlay with a few tools for HEP work</description>
+    <homepage>https://github.com/ArturSztuc/neutrino-overlay/</homepage>
+		<owner type="person">
+			<name>Artur Sztuc</name>
+		</owner>
+		<source type="git">git://github.com/ArturSztuc/neutrino-overlay.git</source>
+      
+	</repo>
+</repositories>
